@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+}
+body {    
+    background-color: #FFF;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+.form-signin, .form-s-input {
+    padding: 19px 29px 29px;    
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin, .max-w300 {
+    max-width: 300px;
+}
+.form-signin {
+    margin: 0 auto 20px;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox,
+.form-s-input {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+#footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #eeeeee;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+}
+
+.search-form {
+    padding-top:20px;
+}
+
+.muted.small {
+    font-size: 10px;
+}
+
+.filter .filters input, .filter .filters select {
+    width: 148px;
+}
+
+span.required {
+    color:red;
+}
+
+h2.head {
+    font-size: 22px;
+    color: #428bca;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.filters input, .filter select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.filter .summary {
+    text-align: right;
+}
+
+/* Изменяем стили постраничной навигации */
+.pagination {
+    border-radius: 0px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.pagination>.selected>a, .pagination>.selected>span, .pagination>.selected>a:hover, .pagination>.selected>span:hover, .pagination>.selected>a:focus, .pagination>.selected>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #428bca;
+    border-color: #428bca;
+}

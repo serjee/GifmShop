@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /protected/
+Disallow: /themes/
+Disallow: /user/*/
+Disallow: /admin/*/

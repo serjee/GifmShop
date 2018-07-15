@@ -1,0 +1,216 @@
+2013/12/15 19:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:00:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---
+2013/12/15 20:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "vk/main/index".' in /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php:1750
+Stack trace:
+#0 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1666): CWebApplication->runController('vk/main/index')
+#1 /home/user/yii/yii-1.1.14.f0fee9/framework/yiilite.php(1191): CWebApplication->processRequest()
+#2 /home/user/www/gifm.ru/vk/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/vk/
+---

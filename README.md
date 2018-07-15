@@ -1,2 +1,2 @@
 # GifmShop
-Anonymous gift shop (based on Yii 1.1.13)
+Internet shop of anonymous gifts (based on Yii v.1.1.13)

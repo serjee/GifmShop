@@ -1,0 +1,391 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    background: url('../img/fon.png') repeat;
+}
+
+/* Убираем пустое место сверху */
+.h-header-top-null {
+    margin-top: 0px;
+}
+.footer-bottom-null {
+    margin-bottom: 0px;
+}
+
+/* Head Contacts Styles */
+.head-contacts {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+}
+.head-contacts img {
+    display:inline-block;
+    vertical-align: text-bottom;
+}
+
+/* Order Page */
+.h-order {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+h2.head {
+    font-size: 22px;
+    color: #428bca;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.pink-text {
+    color: #ff9999;
+}
+
+/* Main Page Styles */
+.carousel-inner, .capcha-image {
+    border: 1px solid #fff4f4;
+}
+
+/* Messages Style */
+span.required, .form-group .help-block {
+    color: #b94a48;
+}
+.errorMessage, .form-group .error .help-block, .form-group .error .control-label {
+    color: #b94a48;
+}
+.form-group .error .form-control, textarea.form-control.error, .error textarea {
+    border-color:#b94a48;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.form-group .success .help-block, .form-group .success .control-label {
+    color: #468847;
+}
+.form-group .success .form-control {
+    border-color: #468847;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -120px;
+    /* Pad bottom by footer height */
+    padding: 0 0 120px;
+}
+
+/* Overload Navbar Style */
+.navbar {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#fffdfd),to(#fff8f8));
+    background-image: -webkit-linear-gradient(top,#fffdfd,0%,#fff8f8,100%);
+    background-image: -moz-linear-gradient(top,#fffdfd 0,#fff8f8 100%);
+    background-image: linear-gradient(to bottom,#fffdfd 0,#fff8f8 100%);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#fffff8f8',GradientType=0);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 5px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 5px rgba(0,0,0,0.075);
+}
+.navbar-default {
+    background-color: #fff8f8;    
+}
+.navbar-brand {
+    padding: 5px 10px 5px 5px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    background-color:#ffdddd;
+}
+.navbar .navbar-nav>.active>a {
+    background-color:#fff2f2;
+}
+
+/* Style Main */
+.btn-pink {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#ffd1d1),to(#ff9999));
+    background-image: -webkit-linear-gradient(top,#ffd1d1,0%,#ff9999,100%);
+    background-image: -moz-linear-gradient(top,#ffd1d1 0,#ff9999 100%);
+    background-image: linear-gradient(to bottom,#ffd1d1 0,#ff9999 100%);
+    background-repeat: repeat-x;
+    border-color: #ff9999;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffd1d1',endColorstr='#ffff9999',GradientType=0);
+}
+.btn-pink {
+    color: #2e2e2e;
+    background-color: #ff9999;
+    border-color: #ff9999;
+}
+.btn-noradius {
+    border-radius: 0px;
+}
+
+/* Docs sidebar
+-------------------------------------------------- */
+
+li.li-header {
+    display: block;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #f59f9e;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    text-transform: uppercase;
+}
+
+/* By default it's not affixed in mobile views, so undo that */
+.bs-sidebar.affix {
+    position: static;
+    padding-bottom: 20px;
+}
+/* First level of nav */
+.bs-sidenav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top:    10px;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+/* All levels of nav */
+.bs-sidebar .nav > li > a {
+    display: block;
+    color: #716b7a;
+    padding: 5px 20px;
+}
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #ffdddd;
+    /*border-left: 1px solid #d8e0d9;*/
+}
+.bs-sidebar .nav > .active > a,
+.bs-sidebar .nav > .active:hover > a,
+.bs-sidebar .nav > .active:focus > a {
+    font-weight: bold;
+    color: #3d7c42;
+    background-color: transparent;
+    /*border-right: 1px solid #3d7c42;*/
+}
+/* Nav: second level (shown on .active) */
+.bs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    margin-bottom: 8px;
+}
+.bs-sidebar .nav .nav > li > a {
+    padding-top:    3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    font-size: 90%;
+}
+/* Show the docs nav */
+.bs-sidebar {
+    display: block;
+}
+/* Show the hidden subnavs when space allows it */
+.bs-sidebar .nav > .active > ul {
+    display: block;
+}
+
+/* FOOTER */
+/* Set the fixed height of the footer here */
+#footer {
+    color: #999999;
+    padding-top: 10px;
+    height: 120px;
+    background-color:#f2f2f2;
+    border-top: 1px solid #bababa;
+    box-shadow: inset 0 1px 0 #ffffff;
+}
+#footer p {
+    padding-top: 10px;
+}
+#footer .wegetpay {
+    color: #999999;
+    /* font-size: 16px; */
+    border-bottom: 1px dotted;
+    width: 172px;
+}
+ul.pay_methods_list {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    list-style-type: none;
+    overflow: hidden;
+    zoom: 1;
+}
+ul.pay_methods_list li {
+    float: left;
+    padding: 0px 20px 0px 0px;
+}
+ul.pay_methods_list li a {
+    display: block;
+    height: 57px;
+    position: relative;
+    font: 10px Arial, DejaVu Sans, sans-serif;
+    color: #5a5e63 !important;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 37px;
+    overflow: hidden;
+    background: url('../img/paymets.png') no-repeat;
+}
+ul.pay_methods_list li.item_1 a {
+    background-position: 0px -210px;
+    width: 92px;
+}
+ul.pay_methods_list li.item_2 a {
+    background-position: 0px 0px;
+    width: 108px;
+}
+ul.pay_methods_list li.item_3 a {
+    background-position: -130px -140px;
+    width: 56px;
+}
+ul.pay_methods_list li.item_4 a {
+    background-position: -120px 0px;
+    width: 74px;
+}
+
+/*Loading style*/
+.loading {
+    background: url("../img/loading.gif") center center no-repeat;
+    height:64px;
+    z-index: 999;
+}
+
+/* Soc links */
+.nav-soc {
+    padding-top:2px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+.nav-soc>li {
+    float: left;
+}
+a.soc-group {
+    margin-top: 5px;
+    margin-right: 10px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/sprite-soc2.png");
+}
+a.soc-group.vk {
+    background-position: 0px -18px;
+}
+a.soc-group.vk:hover {
+    background-position: 0px 0px;
+}
+a.soc-group.fb {
+    background-position: 18px -18px;
+}
+a.soc-group.fb:hover {
+    background-position: 18px 0px;
+}
+a.soc-group.tw {
+    background-position: 36px -18px;
+}
+a.soc-group.tw:hover {
+    background-position: 36px 0px;
+}
+
+/* Media Type */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Tablets/desktops and up */
+@media screen and (min-width: 992px) {
+
+    /* Widen the fixed sidebar */
+    .bs-sidebar.affix,
+    .bs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-sidebar.affix {
+        /* position: fixed; Undo the static from mobile-first approach */
+        top: 80px;
+    }
+    .bs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile-first approach */
+    }
+    .bs-sidebar.affix-bottom .bs-sidenav,
+    .bs-sidebar.affix .bs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .bs-header h1,
+    .bs-header p {
+        margin-right: 380px;
+    }
+    .carbonad {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        padding: 15px !important;
+        width: 330px !important;
+        min-height: 132px;
+    }
+}
+
+/* Изменяем стили постраничной навигации */
+.pagination {
+    border-radius: 0px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.pagination>.selected>a, .pagination>.selected>span, .pagination>.selected>a:hover, .pagination>.selected>span:hover, .pagination>.selected>a:focus, .pagination>.selected>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #428bca;
+    border-color: #428bca;
+}
+
+/* Large desktops and up */
+@media screen and (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-sidebar.affix-bottom,
+    .bs-sidebar.affix {
+        width: 270px;
+    }
+}
+
+/* Карусель */
+.image_carousel {
+    padding: 5px 0 5px 30px;
+}
+.image_carousel img {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 9px;
+    margin: 7px;
+    display: block;
+    float: left;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+img.specoffers-img {
+    width: 140px;
+}
